@@ -25,7 +25,7 @@ abstract class CoreRepository
     public function __construct()
     {
         $this->model = app($this->getModelClass());
-        // save as $this->model = new $this->getModelClass();
+        // same as $this->model = new $this->getModelClass();
     }
 
     /**
